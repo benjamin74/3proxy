@@ -1,7 +1,11 @@
 3proxy install script for Debian / Ubuntu VPS
 ======================================================
 
-An attempt to install 3proxy as an elite high anonymous HTTP proxy with SSL support with a few command lines
+An attempt to install 3proxy as an elite high anonymous HTTP proxy with SSL support with a few command lines. This script has been created to bypass the fact that Squid3 proxy isn't compiled with SSL support and is an absolute nightmare to compile in Debian right now.
+
+This setup has been created to quickly install a proxy on small lowendbox VPS mostly for "google rank analysis" / scraping.
+
+**MANUAL :**
 
 Download, make executable and run with these lines :
 
