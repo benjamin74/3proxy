@@ -14,3 +14,4 @@ cd /etc/init.d/
 wget --no-check-certificate https://raw.github.com/benjamin74/3proxy/master/3proxyinit
 chmod  +x /etc/init.d/3proxyinit
 update-rc.d 3proxyinit defaults
+/etc/3proxy/3proxy /etc/3proxy/3proxy.cfg &
