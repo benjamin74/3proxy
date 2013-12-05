@@ -8,4 +8,7 @@ cd src
 mkdir /etc/3proxy/
 mv 3proxy /etc/3proxy/
 cd /etc/3proxy/
-wget 
+wget --no-check-certificate https://github.com/benjamin74/3proxy/raw/master/3proxy.cfg
+chmod 600 /etc/3proxy/3proxy.cfg
+cd /etc/init.d/
+wget --no-check-certificate 
