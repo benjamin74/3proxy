@@ -9,7 +9,7 @@ This setup has been created to quickly install a proxy on small lowendbox VPS mo
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/benjamin74/3proxy/master/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.github.com/barankilic/3proxy/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
