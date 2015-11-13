@@ -38,4 +38,4 @@ Once you've change the username / password you can start the proxy (or reboot th
 - Ubuntu 12.10 32bits
 - Ubuntu 12.04 32bits
 
-(all images from bluevm VPS provider)
+http://barankilic.github.io/3proxy/
