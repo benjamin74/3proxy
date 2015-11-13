@@ -13,26 +13,26 @@ Download, make executable and run with these lines :
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
-After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!! (you can also change the port, default is 3128)
+After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!! 
+    nano /etc/3proxy/.proxyauth
+Example change line inside .proxyauth
+    johndoe:CL:johndoepassword123
+
+You can also change the port, default is 3128
 
     nano /etc/3proxy/3proxy.cfg
     
-Example change line inside 3proxy.cfg :
-    
-    users johndoe:CL:johndoepassword123
-    
-into this :
 
-    users michael:CL:PAssWord99
-    
-to change the proxy username to "michael" and the password to "PAssWord99"
-    
 Once you've change the username / password you can start the proxy (or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
 
-    /etc/3proxy/3proxy /etc/3proxy/3proxy.cfg &
+    /etc/init.d/3proxyinit start
 
-**Script tested on december 5, 2013 on the following fresh VPS install distros :**
+**Script tested on November 5, 2015 on the following fresh VPS install distros :**
 
+-Debian 8 64bit
+-Scaleway C1 Debian Jessie Image
+
+**Script will run on :**
 - Debian 6 32bits
 - Debian 7 32bits
 - Ubuntu 12.10 32bits
