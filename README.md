@@ -31,17 +31,23 @@ Once you've change the username / password you can start the proxy
 (or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
 
     /etc/init.d/3proxyinit start
+	
+For Uninstall Download, make executable and run with these lines :
 
-**Script tested on November 5, 2015 on the following fresh VPS install distros :**
+	wget --no-check-certificate https://raw.github.com/barankilic/3proxy/master/3proxyuninst.sh
+	chmod +x 3proxyuninst.sh
+	./3proxyuninst.sh
 
-- Debian 8 64bit (Openvz)
-- Scaleway C1 Debian Jessie Image
+**Script tested on 20.05.2016 on the following fresh VPS install distros :**
+
+- Ubuntu 14.04 64bit (Vmware)
 
 **Script will run on :**
 - Debian 6 32bits
 - Debian 7 32bits
 - Ubuntu 12.10 32bits
 - Ubuntu 12.04 32bits
+- Ubuntu 14.04 32bits and 64bits
 
 <<<<<<< HEAD
 =======
