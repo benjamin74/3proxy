@@ -43,3 +43,7 @@ Once you've change the username / password you can start the proxy
 - Ubuntu 12.10 32bits
 - Ubuntu 12.04 32bits
 
+<<<<<<< HEAD
+=======
+http://barankilic.github.io/3proxy/
+>>>>>>> origin/master
