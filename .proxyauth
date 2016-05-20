@@ -1,0 +1,4 @@
+## addusers in this format:
+#user:CL:password
+##see for documentation: http://www.3proxy.ru/howtoe.asp#USERS
+proxyuser1:CL:StrongPasswordforUser
